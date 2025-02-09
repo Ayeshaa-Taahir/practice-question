@@ -2,7 +2,7 @@
 #include<iostream>
 using namespace std;
 double power(double base , double exponent){
-	int result;
+	double result;
 	for(int i = 0 ; i < exponent ; i ++){
 		result *= base; 
 	}
@@ -10,11 +10,10 @@ double power(double base , double exponent){
 }
 int main (){
 	double base, exponent;
-	cout<<"enter a base";
+	cout<<"enter a base ";
 	cin>>base;
 	cout<<"enter a expoxnent ";
 	cin>>exponent;
-	
-	cout<< power(base, exponent);
+	 cout << base << " raised to the power of " << exponent << " is: " << power(base, exponent) << endl;
 	return 0;
 }
