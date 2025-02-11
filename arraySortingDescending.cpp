@@ -14,7 +14,7 @@ int main()
         cin >> arr[i];
     }
     int insert;
-    cout << "Enter the elements of insert new value in array: ";
+    cout << "Enter the elements to insert new value in array: ";
     cin >> insert;
     arr[n] = insert;
     
